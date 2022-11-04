@@ -8,6 +8,7 @@ public class BankAccount {
 
 	private static double tax = 5.0;
 
+	//utilizando o método deposit para que a alteração no saldo não possa ser utilizada com o método set
 	public BankAccount(int number, String holder, double initialDeposit) {
 		this.number = number;
 		this.holder = holder;
